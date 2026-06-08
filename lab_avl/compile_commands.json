@@ -1,0 +1,38 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_avl/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_avl/lib -I/Users/hvu/College/cs225/lab_avl/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_avl/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_avl/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_avl/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_avl/lib -I/Users/hvu/College/cs225/lab_avl/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/testavl.dir/entry/testavl.cpp.o -c /Users/hvu/College/cs225/lab_avl/entry/testavl.cpp",
+    "file": "/Users/hvu/College/cs225/lab_avl/entry/testavl.cpp",
+    "output": "CMakeFiles/testavl.dir/entry/testavl.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_avl/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_avl/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_avl/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_avl/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/binarytree.dir/binarytree/coloredout.cpp.o -c /Users/hvu/College/cs225/lab_avl/lib/binarytree/coloredout.cpp",
+    "file": "/Users/hvu/College/cs225/lab_avl/lib/binarytree/coloredout.cpp",
+    "output": "lib/CMakeFiles/binarytree.dir/binarytree/coloredout.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_avl/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_avl/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_avl/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_avl/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_avl/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_avl/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_avl/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_avl/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  }
+]

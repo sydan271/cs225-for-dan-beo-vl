@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_ml/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_ml/lib -I/Users/hvu/College/cs225/lab_ml/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_ml/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_ml/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_ml/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_ml/lib -I/Users/hvu/College/cs225/lab_ml/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/nim.dir/entry/nim.cpp.o -c /Users/hvu/College/cs225/lab_ml/entry/nim.cpp",
+    "file": "/Users/hvu/College/cs225/lab_ml/entry/nim.cpp",
+    "output": "CMakeFiles/nim.dir/entry/nim.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_ml/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_ml/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_ml/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_ml/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_ml/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_ml/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_ml/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_ml/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_ml/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_ml/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_ml/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_ml/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_ml/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/nim_graph.dir/nim_graph/graph.cpp.o -c /Users/hvu/College/cs225/lab_ml/lib/nim_graph/graph.cpp",
+    "file": "/Users/hvu/College/cs225/lab_ml/lib/nim_graph/graph.cpp",
+    "output": "lib/CMakeFiles/nim_graph.dir/nim_graph/graph.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_ml/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_ml/src -I/Users/hvu/College/cs225/lab_ml/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/nim_learner.cpp.o -c /Users/hvu/College/cs225/lab_ml/src/nim_learner.cpp",
+    "file": "/Users/hvu/College/cs225/lab_ml/src/nim_learner.cpp",
+    "output": "src/CMakeFiles/src.dir/nim_learner.cpp.o"
+  }
+]

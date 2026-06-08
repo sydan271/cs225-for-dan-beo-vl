@@ -1,0 +1,38 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_quacks/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_quacks/lib -I/Users/hvu/College/cs225/lab_quacks/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_quacks/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_quacks/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_quacks/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_quacks/lib -I/Users/hvu/College/cs225/lab_quacks/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/quacks.dir/entry/quacks.cpp.o -c /Users/hvu/College/cs225/lab_quacks/entry/quacks.cpp",
+    "file": "/Users/hvu/College/cs225/lab_quacks/entry/quacks.cpp",
+    "output": "CMakeFiles/quacks.dir/entry/quacks.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_quacks/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_quacks/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_quacks/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_quacks/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_quacks/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_quacks/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_quacks/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_quacks/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_quacks/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_quacks/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_quacks/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_quacks/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_quacks/src -I/Users/hvu/College/cs225/lab_quacks/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/exercises.cpp.o -c /Users/hvu/College/cs225/lab_quacks/src/exercises.cpp",
+    "file": "/Users/hvu/College/cs225/lab_quacks/src/exercises.cpp",
+    "output": "src/CMakeFiles/src.dir/exercises.cpp.o"
+  }
+]

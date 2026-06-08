@@ -1,0 +1,416 @@
+#include <catch2/catch_test_macros.hpp>
+
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <stack>
+#include "cs225/PNG.h"
+#include "dsets.h"
+#include "maze.h"
+#include "mazereader.h"
+
+using namespace cs225;
+using namespace std;
+
+void sprintMaze(std::ostream &s, SquareMaze const &maze, int width,
+                int height) {
+  static std::vector<std::string> boxDrawing = {
+      // thin
+      // " ", "╵", "╴", "┘", "╷", "│", "┐", "┤",
+      // "╶", "└", "─", "┴", "┌", "├", "┬", "┼",
+      // wide
+      "   ", " ╵ ", "─╴ ", "─┘ ", " ╷ ", " │ ", "─┐ ", "─┤ ",
+      " ╶─", " └─", "───", "─┴─", " ┌─", " ├─", "─┬─", "─┼─",
+  };
+
+  auto canTravel = [&](int x, int y, Direction dir) -> bool {
+    if ((y < 0 || y >= height) && dir == Direction::RIGHT)
+      return true;
+    if ((x < 0 || x >= width) && dir == Direction::DOWN)
+      return true;
+    if (x < 0 || y < 0 || x >= width || y >= height)
+      return false;
+    return maze.canTravel(x, y, dir);
+  };
+
+  auto index = [&](int x, int y) -> char {
+    // clang-format off
+    return !canTravel(x    , y - 1, Direction::DOWN ) << 3
+         | !canTravel(x - 1, y    , Direction::RIGHT) << 2
+         | !canTravel(x - 1, y - 1, Direction::DOWN ) << 1
+         | !canTravel(x - 1, y - 1, Direction::RIGHT) << 0;
+    // clang-format on
+  };
+
+  for (int y = 0; y <= height; y++) {
+    for (int x = 0; x <= width; x++)
+      s << boxDrawing[index(x, y)];
+    s << "\n";
+  }
+}
+
+void printMaze(SquareMaze const &maze, int width, int height) {
+  return sprintMaze(std::cout, maze, width, height);
+}
+
+void assert_maze_acyclic(SquareMaze &maze, int width, int height);
+void assert_maze_connected(SquareMaze &maze, int width, int height);
+void assert_maze_tree(SquareMaze &maze, int width, int height);
+void copyMaze(const MazeReader &source, SquareMaze *dest);
+void advancePosition(int *x, int *y, int dir);
+PNG read_solution(const string &filename, int width, int height);
+PNG read_unsolved(const string &filename, int width, int height);
+
+#define READ_SOLUTION_PNG(func, width, height) \
+    read_solution(string("../data/") + func + string("-expected.png"), width, height)
+#define READ_UNSOLVED_PNG(func, width, height) \
+    read_unsolved(string("../data/") + func + string("-expected.png"), width, height)
+#define READ_SOLUTION_MAZE(func, width, height) \
+    MazeReader(READ_SOLUTION_PNG(func, width, height))
+#define READ_UNSOLVED_MAZE(func, widht, height) \
+    MazeReader(READ_UNSOLVED_PNG(func, width, height))
+
+void recDFS(SquareMaze &maze, vector<vector<uint8_t>> *visited, int x, int y, int width, int height, int *calls)
+{
+    stack<pair<int, int>> s;
+    s.push(make_pair(x, y));
+
+    while (!s.empty())
+    {
+        x = s.top().first;
+        y = s.top().second;
+        s.pop();
+        (*calls)++;
+        if ((*visited)[x][y] != 0)
+            continue;
+        (*visited)[x][y] = 1;
+
+        if (x < width - 1 && maze.canTravel(x, y, RIGHT))
+            s.push(make_pair(x + 1, y));
+        if (y < height - 1 && maze.canTravel(x, y, DOWN))
+            s.push(make_pair(x, y + 1));
+        if (x > 0 && maze.canTravel(x, y, LEFT))
+            s.push(make_pair(x - 1, y));
+        if (y > 0 && maze.canTravel(x, y, UP))
+            s.push(make_pair(x, y - 1));
+    }
+}
+
+pair<int, int> assert_maze_helper(SquareMaze &maze, int width, int height)
+{
+    vector<vector<uint8_t>> visited;
+    for (int i = 0; i < width; i++)
+        visited.push_back(vector<uint8_t>(height));
+
+    int components = 0;
+    int calls = 0;
+
+    for (int i = 0; i < width; i++)
+    {
+        for (int j = 0; j < height; j++)
+        {
+            if (visited[i][j] == 0)
+            {
+                recDFS(maze, &visited, i, j, width, height, &calls);
+                components++;
+            }
+        }
+    }
+
+    return make_pair(components, calls);
+}
+
+void assert_maze_acyclic(SquareMaze &maze, int width, int height)
+{
+    pair<int, int> checks = assert_maze_helper(maze, width, height);
+    int components = checks.first;
+    int calls = checks.second;
+    if (calls + components != width * height * 2)
+        FAIL("Maze has a cycle");
+}
+
+void assert_maze_connected(SquareMaze &maze, int width, int height)
+{
+    pair<int, int> checks = assert_maze_helper(maze, width, height);
+    int components = checks.first;
+    int calls = checks.second;
+    if (components != 1)
+        FAIL("Maze is not connected");
+}
+
+void assert_maze_tree(SquareMaze &maze, int width, int height)
+{
+    pair<int, int> checks = assert_maze_helper(maze, width, height);
+    int components = checks.first;
+    int calls = checks.second;
+    if (calls + components != width * height * 2)
+        FAIL("Maze has a cycle");
+    if (components != 1)
+        FAIL("Maze is not connected");
+}
+
+PNG read_solution(const string &filename, int width, int height)
+{
+    PNG output;
+    output.readFromFile(filename);
+    return output;
+}
+
+PNG read_unsolved(const string &filename, int width, int height)
+{
+    PNG output;
+    output.readFromFile(filename);
+    return output;
+}
+
+void copyMaze(const MazeReader &source, SquareMaze *dest)
+{
+    dest->makeMaze(source.getWidth(), source.getHeight());
+    for (int x = 0; x < source.getWidth(); x++)
+    {
+        for (int y = 0; y < source.getHeight(); y++)
+        {
+            if (x < source.getWidth() - 1)
+                dest->setWall(x, y, RIGHT, source.isWall(x, y, MazeReader::RIGHTWALL));
+            if (y < source.getHeight() - 1)
+                dest->setWall(x, y, DOWN, source.isWall(x, y, MazeReader::DOWNWALL));
+        }
+    }
+}
+
+void advancePosition(int *x, int *y, int dir)
+{
+    if (dir == MazeReader::RIGHT)
+        (*x)++;
+    else if (dir == MazeReader::DOWN)
+        (*y)++;
+    else if (dir == MazeReader::LEFT)
+        (*x)--;
+    else if (dir == MazeReader::UP)
+        (*y)--;
+}
+
+// part2
+TEST_CASE("testMakeSmallMaze", "[weight=10][part2][valgrind]")
+{
+    SquareMaze maze;
+    maze.makeMaze(2, 2);
+    assert_maze_tree(maze, 2, 2);
+}
+
+TEST_CASE("testMakeMazeConnected", "[weight=10][part2][valgrind]")
+{
+    SquareMaze maze;
+    maze.makeMaze(15, 15);
+    assert_maze_connected(maze, 15, 15);
+}
+
+TEST_CASE("testMakeMazeAcyclic", "[weight=10][part2][valgrind]")
+{
+    SquareMaze maze;
+    maze.makeMaze(15, 15);
+    assert_maze_acyclic(maze, 15, 15);
+}
+
+TEST_CASE("testMakeMazeTree750", "[weight=10][part2][timeout=20000]")
+{
+    SquareMaze maze;
+    maze.makeMaze(750, 750);
+    assert_maze_tree(maze, 750, 750);
+}
+
+TEST_CASE("testMakeMazeRandom", "[weight=10][part2]")
+{
+    SquareMaze maze1;
+    maze1.makeMaze(50, 50);
+
+    SquareMaze maze2;
+    maze2.makeMaze(50, 50);
+    bool same = true;
+
+    for (int y = 0; y < 50; y++)
+    {
+        for (int x = 0; x < 50; x++)
+        {
+            if (maze1.canTravel(x, y, RIGHT) != maze2.canTravel(x, y, RIGHT))
+            {
+                same = false;
+                break;
+            }
+            if (maze1.canTravel(x, y, DOWN) != maze2.canTravel(x, y, DOWN))
+            {
+                same = false;
+                break;
+            }
+        }
+    }
+    if (same == false)
+    {
+        SUCCEED();
+    }
+    else
+        FAIL("Generated the same 50x50 maze twice");
+}
+
+TEST_CASE("testSolveMazeValidPath", "[weight=10][part2][valgrind]")
+{
+    SquareMaze maze;
+    MazeReader soln = READ_SOLUTION_MAZE("testSolveMazeValidPath", 15, 15);
+    copyMaze(soln, &maze);
+    vector<Direction> solution = maze.solveMaze(0);
+
+
+    if (solution.empty())
+        FAIL("No solution was generated");
+
+    int x = 0;
+    int y = 0;
+    for (size_t i = 0; i < solution.size(); i++)
+    {
+        if (soln.isWallInDir(x, y, solution[i]))
+            FAIL("Solution passes through walls");
+        advancePosition(&x, &y, solution[i]);
+    }
+}
+
+TEST_CASE("testSolutionBottomRow", "[weight=10][part2][valgrind]")
+{
+    SquareMaze maze;
+    MazeReader soln = READ_SOLUTION_MAZE("testSolutionBottomRow", 15, 15);
+    copyMaze(soln, &maze);
+    vector<Direction> solution = maze.solveMaze(0);
+
+    int x = 0;
+    int y = 0;
+    for (size_t i = 0; i < solution.size(); i++)
+        advancePosition(&x, &y, solution[i]);
+
+    if (y != soln.getDestinationY())
+        FAIL("Didn't end up at the bottom row");
+}
+
+TEST_CASE("testSolutionCorrectSquare", "[weight=10][part2][valgrind]")
+{
+    SquareMaze maze;
+    MazeReader soln = READ_SOLUTION_MAZE("testSolutionCorrectSquare", 15, 15);
+    copyMaze(soln, &maze);
+    vector<Direction> solution = maze.solveMaze(0);
+
+    int x = 0;
+    int y = 0;
+    for (size_t i = 0; i < solution.size(); i++)
+        advancePosition(&x, &y, solution[i]);
+
+    if (y != soln.getDestinationY())
+        FAIL("Didn't end up at the bottom row");
+    if (x != soln.getDestinationX())
+        FAIL("Didn't end up at the correct bottom-row cell");
+}
+
+// The MazeReader object must be passed in because READ_SOLUTION uses
+// the function name to name the file
+void helpSolveMaze(const MazeReader &soln)
+{
+    SquareMaze maze;
+    copyMaze(soln, &maze);
+    vector<Direction> solution = maze.solveMaze(0);
+
+    cout << "first 10 steps in solution:" << endl;
+    for (size_t i = 0; i < solution.size() && i < soln.getSolutionSize() && i < 10; i++)
+        cout << "step " << i << ": actual=" << solution[i] << ", expected=" << soln.getSolutionAt(i) << endl;
+
+    REQUIRE(soln.getSolutionSize() == solution.size());
+
+    for (size_t i = 0; i < solution.size(); i++)
+        if (solution[i] != (Direction)soln.getSolutionAt(i))
+            FAIL("Solution is incorrect");
+}
+
+TEST_CASE("testSolveMazeSmall", "[weight=10][part2][valgrind][timeout=20000]")
+{
+    helpSolveMaze(READ_SOLUTION_MAZE("testSolveMazeSmall", 70, 70));
+}
+
+TEST_CASE("testSolveMazeLarge", "[weight=10][part2][timeout=30000]")
+{
+    helpSolveMaze(READ_SOLUTION_MAZE("testSolveMazeLarge", 140, 140));
+}
+
+TEST_CASE("testDrawMazeSmall", "[weight=10][part2][valgrind]")
+{
+    PNG solnImage = READ_UNSOLVED_PNG("testDrawMazeSmall", 2, 2);
+    MazeReader soln(solnImage);
+    SquareMaze maze;
+    copyMaze(soln, &maze);
+    PNG *actualOutput = maze.drawMaze(0);
+    actualOutput->writeToFile("testDrawMazeSmall" + string("-actual.png"));
+    REQUIRE(*actualOutput == solnImage);
+    delete actualOutput;
+}
+
+TEST_CASE("testDrawMazeMed", "[weight=10][part2]")
+{
+    PNG solnImage = READ_UNSOLVED_PNG("testDrawMazeMed", 50, 50);
+    MazeReader soln(solnImage);
+    SquareMaze maze;
+    copyMaze(soln, &maze);
+    PNG *actualOutput = maze.drawMaze(0);
+    REQUIRE(*actualOutput == solnImage);
+    delete actualOutput;
+}
+
+TEST_CASE("testDrawMazeLarge", "[weight=10][part2][timeout=30000]")
+{
+    PNG solnImage = READ_UNSOLVED_PNG("testDrawMazeLarge", 200, 200);
+    MazeReader soln(solnImage);
+    SquareMaze maze;
+    copyMaze(soln, &maze);
+    PNG *actualOutput = maze.drawMaze(0);
+    actualOutput->writeToFile("testDrawMazeLarge" + string("-actual.png"));
+    REQUIRE(*actualOutput == solnImage);
+    delete actualOutput;
+}
+
+TEST_CASE("testDrawSolutionMed", "[weight=10][part2][valgrind][timeout=15000]")
+{
+    PNG solnImage = READ_SOLUTION_PNG("testDrawSolutionMed", 50, 50);
+    MazeReader soln(solnImage);
+    SquareMaze maze;
+    copyMaze(soln, &maze);
+    maze.solveMaze(0);
+    PNG *actualOutput = maze.drawMazeWithSolution(0);
+    actualOutput->writeToFile("testDrawSolutionMed" + string("-actual.png"));
+    REQUIRE(*actualOutput == solnImage);
+    delete actualOutput;
+}
+
+TEST_CASE("testDrawSolutionLarge", "[weight=10][part2][timeout=30000]")
+{
+    PNG solnImage = READ_SOLUTION_PNG("testDrawSolutionLarge", 200, 200);
+    MazeReader soln(solnImage);
+    SquareMaze maze;
+    copyMaze(soln, &maze);
+    vector<Direction> solution = maze.solveMaze(0);
+
+    maze.solveMaze(0);
+    PNG *actualOutput = maze.drawMazeWithSolution(0);
+    actualOutput->writeToFile("testDrawSolutionLarge" + string("-actual.png"));
+    REQUIRE(*actualOutput == solnImage);
+    delete actualOutput;
+}
+
+// new test cases 10/5/24
+
+TEST_CASE("testDrawSolutionMedStartpoint", "[weight=10][part2]")
+{
+    PNG solnImage = READ_SOLUTION_PNG("testSquareStartPointSolution", 15, 15);
+    MazeReader soln(solnImage);
+    SquareMaze maze;
+    copyMaze(soln, &maze);
+    maze.solveMaze(7);
+    PNG *actualOutput = maze.drawMazeWithSolution(7);
+    actualOutput->writeToFile("testSquareStartPoint" + string("-actual.png"));
+    REQUIRE(*actualOutput == solnImage);
+    delete actualOutput;
+}

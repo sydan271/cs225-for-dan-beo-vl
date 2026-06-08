@@ -1,0 +1,98 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib -I/Users/hvu/College/cs225/mp_mosaics/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_part1.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/tests/tests_part1.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/tests/tests_part1.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_part1.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib -I/Users/hvu/College/cs225/mp_mosaics/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_part2.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/tests/tests_part2.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/tests/tests_part2.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_part2.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib -I/Users/hvu/College/cs225/mp_mosaics/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_student.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/tests/tests_student.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/tests/tests_student.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_student.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib -I/Users/hvu/College/cs225/mp_mosaics/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/mosaics.dir/entry/mosaics.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/entry/mosaics.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/entry/mosaics.cpp",
+    "output": "CMakeFiles/mosaics.dir/entry/mosaics.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/util.dir/util/coloredout.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/util/coloredout.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/util/coloredout.cpp",
+    "output": "lib/CMakeFiles/util.dir/util/coloredout.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/util.dir/util/util.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/util/util.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/util/util.cpp",
+    "output": "lib/CMakeFiles/util.dir/util/util.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/ColorSpace/ColorSpace.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/cs225/ColorSpace/ColorSpace.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/cs225/ColorSpace/ColorSpace.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/ColorSpace/ColorSpace.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/ColorSpace/Comparison.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/cs225/ColorSpace/Comparison.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/cs225/ColorSpace/Comparison.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/ColorSpace/Comparison.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/ColorSpace/Conversion.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/cs225/ColorSpace/Conversion.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/cs225/ColorSpace/Conversion.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/ColorSpace/Conversion.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/LUVAPixel.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/cs225/LUVAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/cs225/LUVAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/LUVAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/src -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/maptiles.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/src/maptiles.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/src/maptiles.cpp",
+    "output": "src/CMakeFiles/src.dir/maptiles.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/src -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/mosaiccanvas.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/src/mosaiccanvas.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/src/mosaiccanvas.cpp",
+    "output": "src/CMakeFiles/src.dir/mosaiccanvas.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/src -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/sourceimage.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/src/sourceimage.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/src/sourceimage.cpp",
+    "output": "src/CMakeFiles/src.dir/sourceimage.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mosaics/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mosaics/src -I/Users/hvu/College/cs225/mp_mosaics/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/tileimage.cpp.o -c /Users/hvu/College/cs225/mp_mosaics/src/tileimage.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mosaics/src/tileimage.cpp",
+    "output": "src/CMakeFiles/src.dir/tileimage.cpp.o"
+  }
+]

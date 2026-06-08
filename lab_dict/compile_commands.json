@@ -1,0 +1,92 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib -I/Users/hvu/College/cs225/lab_dict/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_dict/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib -I/Users/hvu/College/cs225/lab_dict/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/anagram_finder.dir/entry/anagram_finder.cpp.o -c /Users/hvu/College/cs225/lab_dict/entry/anagram_finder.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/entry/anagram_finder.cpp",
+    "output": "CMakeFiles/anagram_finder.dir/entry/anagram_finder.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib -I/Users/hvu/College/cs225/lab_dict/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/factorial.dir/entry/factorial.cpp.o -c /Users/hvu/College/cs225/lab_dict/entry/factorial.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/entry/factorial.cpp",
+    "output": "CMakeFiles/factorial.dir/entry/factorial.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib -I/Users/hvu/College/cs225/lab_dict/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/fib_generator.dir/entry/fib_generator.cpp.o -c /Users/hvu/College/cs225/lab_dict/entry/fib_generator.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/entry/fib_generator.cpp",
+    "output": "CMakeFiles/fib_generator.dir/entry/fib_generator.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib -I/Users/hvu/College/cs225/lab_dict/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/find_common_words.dir/entry/find_common_words.cpp.o -c /Users/hvu/College/cs225/lab_dict/entry/find_common_words.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/entry/find_common_words.cpp",
+    "output": "CMakeFiles/find_common_words.dir/entry/find_common_words.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib -I/Users/hvu/College/cs225/lab_dict/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/homophone_puzzle.dir/entry/homophone_puzzle.cpp.o -c /Users/hvu/College/cs225/lab_dict/entry/homophone_puzzle.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/entry/homophone_puzzle.cpp",
+    "output": "CMakeFiles/homophone_puzzle.dir/entry/homophone_puzzle.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_dict/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_dict/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_dict/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/src -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/anagram_dict.cpp.o -c /Users/hvu/College/cs225/lab_dict/src/anagram_dict.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/src/anagram_dict.cpp",
+    "output": "src/CMakeFiles/src.dir/anagram_dict.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/src -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/cartalk_puzzle.cpp.o -c /Users/hvu/College/cs225/lab_dict/src/cartalk_puzzle.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/src/cartalk_puzzle.cpp",
+    "output": "src/CMakeFiles/src.dir/cartalk_puzzle.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/src -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/common_words.cpp.o -c /Users/hvu/College/cs225/lab_dict/src/common_words.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/src/common_words.cpp",
+    "output": "src/CMakeFiles/src.dir/common_words.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/src -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/fac.cpp.o -c /Users/hvu/College/cs225/lab_dict/src/fac.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/src/fac.cpp",
+    "output": "src/CMakeFiles/src.dir/fac.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/src -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/fib.cpp.o -c /Users/hvu/College/cs225/lab_dict/src/fib.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/src/fib.cpp",
+    "output": "src/CMakeFiles/src.dir/fib.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_dict/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_dict/src -I/Users/hvu/College/cs225/lab_dict/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/pronounce_dict.cpp.o -c /Users/hvu/College/cs225/lab_dict/src/pronounce_dict.cpp",
+    "file": "/Users/hvu/College/cs225/lab_dict/src/pronounce_dict.cpp",
+    "output": "src/CMakeFiles/src.dir/pronounce_dict.cpp.o"
+  }
+]

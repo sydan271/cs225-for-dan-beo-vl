@@ -1,0 +1,105 @@
+A.
+
+1. 
+x = 10
+*q = 10
+p = nullptr
+q = &x
+- line 4 mutates int
+- line 2 3 5 mutates pointers
+
+2.
+s = 'hi!'
+*p = 'hi!'
+compiles cause derefrencing pp twice gives s. and .push_back() is a valid method of string
+
+3.
+-trying to dereference q after freeing p(which points to the same address as q) == trying to
+dereference a hanging pointer.
+-compile error?
+
+B.
+
+4. Node::Node(const T& d): data(d){}
+
+5.
+void push_front(Node*& head, Node*& tail, const T& val){
+   Node* temp = new Node(val);
+   if (!head && !tail) {
+      head = tail = temp;
+      return;
+   }
+   temp->next = head;
+   head->prev = temp;
+   head = temp;
+}
+
+void push_back(Node*& head, Node*& tail, const T& val){
+   Node* temp = new Node(val);
+   if (!head && !tail) {
+      head = tail = temp;
+      return;
+   }
+   tail->next = temp;
+   temp->prev = tail;
+   tail = temp;
+}
+
+6.
+bool pop_front(Node*& head, Node*& tail){
+   if (!head && !tail) return false;
+   if (head == tail) {
+      delete head;
+      head = tail = nullptr;
+      return true;
+   }
+   Node* temp = head;
+   head = head->next;
+   head->prev = nullptr;
+   delete temp;
+   temp = nullptr;
+   return true;
+}
+
+bool pop_back(Node*& head, Node*& tail){
+   if (!head && !tail) return false;
+   if (head == tail) {
+      delete tail;
+      head = tail = nullptr;
+      return true;
+   }
+   Node* temp = tail;
+   tail = tail->prev;
+   tail->next = nullptr;
+   delete temp;
+   temp = nullptr;
+   return true;
+}
+
+C.
+
+7.
+bool checkLinks(Node* head, Node* tail){
+   if (!head) return tail==nullptr;
+   if (!tail) return head==nullptr;
+   if (head->prev != nullptr || tail->next!= nullptr) return false;
+
+   int count = 0;
+   Node* curr = head;
+   while (curr){
+      if (curr->next && curr->next->prev != curr) return false;
+      curr = curr->next;
+      count++;
+   }
+   int count2 = 0;
+   Node* curr2 = tail;
+   while (curr2){
+      curr2 = curr2->prev;
+      count2++;
+   }
+
+   return count2==count;
+}
+
+8.
+head and tail both point to 2.

@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_heaps/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_heaps/lib -I/Users/hvu/College/cs225/lab_heaps/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_heaps/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_heaps/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_heaps/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_heaps/lib -I/Users/hvu/College/cs225/lab_heaps/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/heaps.dir/entry/heaps.cpp.o -c /Users/hvu/College/cs225/lab_heaps/entry/heaps.cpp",
+    "file": "/Users/hvu/College/cs225/lab_heaps/entry/heaps.cpp",
+    "output": "CMakeFiles/heaps.dir/entry/heaps.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_heaps/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_heaps/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_heaps/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_heaps/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_heaps/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_heaps/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_heaps/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_heaps/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_heaps/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_heaps/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_heaps/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_heaps/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_heaps/src -I/Users/hvu/College/cs225/lab_heaps/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/coloredout.cpp.o -c /Users/hvu/College/cs225/lab_heaps/src/coloredout.cpp",
+    "file": "/Users/hvu/College/cs225/lab_heaps/src/coloredout.cpp",
+    "output": "src/CMakeFiles/src.dir/coloredout.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_heaps/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_heaps/src -I/Users/hvu/College/cs225/lab_heaps/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/printheap.cpp.o -c /Users/hvu/College/cs225/lab_heaps/src/printheap.cpp",
+    "file": "/Users/hvu/College/cs225/lab_heaps/src/printheap.cpp",
+    "output": "src/CMakeFiles/src.dir/printheap.cpp.o"
+  }
+]

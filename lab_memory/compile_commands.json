@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/lib -I/Users/hvu/College/cs225/lab_memory/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_memory/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/lib -I/Users/hvu/College/cs225/lab_memory/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/memory.dir/entry/memory.cpp.o -c /Users/hvu/College/cs225/lab_memory/entry/memory.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/entry/memory.cpp",
+    "output": "CMakeFiles/memory.dir/entry/memory.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_memory/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_memory/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_memory/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/src -I/Users/hvu/College/cs225/lab_memory/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/allocator.cpp.o -c /Users/hvu/College/cs225/lab_memory/src/allocator.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/src/allocator.cpp",
+    "output": "src/CMakeFiles/src.dir/allocator.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/src -I/Users/hvu/College/cs225/lab_memory/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/fileio.cpp.o -c /Users/hvu/College/cs225/lab_memory/src/fileio.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/src/fileio.cpp",
+    "output": "src/CMakeFiles/src.dir/fileio.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/src -I/Users/hvu/College/cs225/lab_memory/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/letter.cpp.o -c /Users/hvu/College/cs225/lab_memory/src/letter.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/src/letter.cpp",
+    "output": "src/CMakeFiles/src.dir/letter.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_memory/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_memory/src -I/Users/hvu/College/cs225/lab_memory/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/room.cpp.o -c /Users/hvu/College/cs225/lab_memory/src/room.cpp",
+    "file": "/Users/hvu/College/cs225/lab_memory/src/room.cpp",
+    "output": "src/CMakeFiles/src.dir/room.cpp.o"
+  }
+]

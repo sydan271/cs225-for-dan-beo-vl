@@ -1,0 +1,50 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_btree/lib -I/Users/hvu/College/cs225/lab_btree/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_btree/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_btree/lib -I/Users/hvu/College/cs225/lab_btree/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/dict_racer.dir/entry/dict_racer.cpp.o -c /Users/hvu/College/cs225/lab_btree/entry/dict_racer.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/entry/dict_racer.cpp",
+    "output": "CMakeFiles/dict_racer.dir/entry/dict_racer.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_btree/lib -I/Users/hvu/College/cs225/lab_btree/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/benchmark_test.dir/entry/benchmark_test.cpp.o -c /Users/hvu/College/cs225/lab_btree/entry/benchmark_test.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/entry/benchmark_test.cpp",
+    "output": "CMakeFiles/benchmark_test.dir/entry/benchmark_test.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_btree/lib -I/Users/hvu/College/cs225/lab_btree/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test_btree.dir/entry/test_btree.cpp.o -c /Users/hvu/College/cs225/lab_btree/entry/test_btree.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/entry/test_btree.cpp",
+    "output": "CMakeFiles/test_btree.dir/entry/test_btree.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_btree/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_btree/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_btree/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_btree/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_btree/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_btree/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_btree/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/benchmark.cpp.o -c /Users/hvu/College/cs225/lab_btree/lib/cs225/benchmark.cpp",
+    "file": "/Users/hvu/College/cs225/lab_btree/lib/cs225/benchmark.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/benchmark.cpp.o"
+  }
+]

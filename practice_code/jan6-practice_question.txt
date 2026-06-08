@@ -1,0 +1,100 @@
+A.
+
+1.
+Cause the compiler has to have access to the declaration of the function before linking.
+
+2.
+as a nested class, ListIterator can access methods and fields and classes inside List.
+
+B.
+3. 4.
+
+class Iterator {
+  Node* pos_;
+public:
+  Iterator(Node* p=nullptr);
+  T& operator*() const;
+  Iterator& operator++();    
+
+   // returns by value cause the real pointer already moved
+  Iterator operator++(int){
+     Node* temp = pos_;
+     if (pos_) pos_=pos_->next;
+     return temp;
+  }  
+
+  Iterator& operator--();    
+  Iterator operator--(int);  
+  bool operator==(const Iterator& rhs) const;
+
+   // this != &rhs is wrong cause two seperate Iterator objects can point to the same Node.
+  bool operator!=(const Iterator& rhs) const{
+    return pos_->data != *rhs;
+  }
+};
+
+5. 
+== and != shuld be const member functions because they only compare and thus be read-only.
+
+6.
+const T* operator->() const{return &(**this);} 
+- this return the address of the data inside the node of the current Iterator's pos_.
+- return pointer cause *this return the current Iterator, **this returns a ref to the data in it and
+  taking that address with &(**this) returns the pointer to that type T data
+
+C.
+
+7.
+--end() means decrementing end() by 1 position so now it points to the last element in the
+container.
+- valid when there is at least 1 element in the container. and the Iterator class contains a field
+  holding tail_ of the list.
+
+8.
+- need a member field that points to the last element.
+- without sentinel node: need a field holding tail_ so when --end() is called it return tail_;
+- with sentinel node: make a sentinel node with no info but is the next of the last node and has the
+  last node as prev. end() points to this sentinel node so when --end() is called it return the prev
+  of this sentinel node.
+
+9.
+- use a sentinel node with next be head and prev be tail
+
+D.
+
+10.
+class DoublyLinkedList{
+private:
+   Node* head_;
+   Node* tail_;
+   Node* sentinel_;
+   class Node{
+   public:
+      int data;
+      Node* next = nullptr;
+      Node* prev = nullptr;
+   };
+
+public:
+   DoublyLinkedList(): head_(nullptr), tail_(nullptr), sentinel_(new Node()){
+      sentinel_->next = sentinel_;
+      sentinel_->prev = sentinel_;
+   }
+
+   Iterator begin() {return Iterator(head_);}
+   Iterator end() {return Iterator(sentinel_);}
+
+   class Iterator: public std::bidirectional-something{
+   private:
+      Node* pos_;
+   public:
+      Iterator():pos_(nullptr){}
+      Iterator(Node* pos): pos_(pos){}
+      Iterator& operator--(){
+         if (pos_){
+            pos_ = pos_->prev;
+            return *this;
+         }
+      }
+   };
+};

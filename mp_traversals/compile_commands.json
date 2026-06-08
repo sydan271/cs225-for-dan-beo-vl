@@ -1,0 +1,116 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib -I/Users/hvu/College/cs225/mp_traversals/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_helper.cpp.o -c /Users/hvu/College/cs225/mp_traversals/tests/tests_helper.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/tests/tests_helper.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_helper.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib -I/Users/hvu/College/cs225/mp_traversals/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_part1-4x4.cpp.o -c /Users/hvu/College/cs225/mp_traversals/tests/tests_part1-4x4.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/tests/tests_part1-4x4.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_part1-4x4.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib -I/Users/hvu/College/cs225/mp_traversals/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_part1-8x4.cpp.o -c /Users/hvu/College/cs225/mp_traversals/tests/tests_part1-8x4.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/tests/tests_part1-8x4.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_part1-8x4.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib -I/Users/hvu/College/cs225/mp_traversals/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_part1-BFS-DFS.cpp.o -c /Users/hvu/College/cs225/mp_traversals/tests/tests_part1-BFS-DFS.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/tests/tests_part1-BFS-DFS.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_part1-BFS-DFS.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib -I/Users/hvu/College/cs225/mp_traversals/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_part2.cpp.o -c /Users/hvu/College/cs225/mp_traversals/tests/tests_part2.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/tests/tests_part2.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_part2.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib -I/Users/hvu/College/cs225/mp_traversals/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests_student.cpp.o -c /Users/hvu/College/cs225/mp_traversals/tests/tests_student.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/tests/tests_student.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests_student.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib -I/Users/hvu/College/cs225/mp_traversals/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/traversals.dir/entry/traversals.cpp.o -c /Users/hvu/College/cs225/mp_traversals/entry/traversals.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/entry/traversals.cpp",
+    "output": "CMakeFiles/traversals.dir/entry/traversals.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/mp_traversals/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/mp_traversals/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/mp_traversals/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/Animation.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/Animation.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/Animation.cpp",
+    "output": "src/CMakeFiles/src.dir/Animation.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/FloodFilledImage.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/FloodFilledImage.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/FloodFilledImage.cpp",
+    "output": "src/CMakeFiles/src.dir/FloodFilledImage.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/ImageTraversal.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/ImageTraversal.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/ImageTraversal.cpp",
+    "output": "src/CMakeFiles/src.dir/ImageTraversal.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/Point.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/Point.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/Point.cpp",
+    "output": "src/CMakeFiles/src.dir/Point.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/colorPicker/GradientColorPicker.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/colorPicker/GradientColorPicker.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/colorPicker/GradientColorPicker.cpp",
+    "output": "src/CMakeFiles/src.dir/colorPicker/GradientColorPicker.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/colorPicker/GridColorPicker.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/colorPicker/GridColorPicker.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/colorPicker/GridColorPicker.cpp",
+    "output": "src/CMakeFiles/src.dir/colorPicker/GridColorPicker.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/colorPicker/MyColorPicker.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/colorPicker/MyColorPicker.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/colorPicker/MyColorPicker.cpp",
+    "output": "src/CMakeFiles/src.dir/colorPicker/MyColorPicker.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/colorPicker/RainbowColorPicker.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/colorPicker/RainbowColorPicker.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/colorPicker/RainbowColorPicker.cpp",
+    "output": "src/CMakeFiles/src.dir/colorPicker/RainbowColorPicker.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_traversals/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_traversals/src -I/Users/hvu/College/cs225/mp_traversals/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/colorPicker/SolidColorPicker.cpp.o -c /Users/hvu/College/cs225/mp_traversals/src/colorPicker/SolidColorPicker.cpp",
+    "file": "/Users/hvu/College/cs225/mp_traversals/src/colorPicker/SolidColorPicker.cpp",
+    "output": "src/CMakeFiles/src.dir/colorPicker/SolidColorPicker.cpp.o"
+  }
+]

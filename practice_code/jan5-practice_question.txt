@@ -1,0 +1,105 @@
+A.
+
+1. 2. 3.
+class Buffer {
+public:
+   Buffer(size_t n):  n_(n), data_(new int[n_]){
+   }
+
+   ~Buffer(){
+      delete[] data_;
+   }
+
+   Buffer(const Buffer& other): n_(n), data_(new int[n_]){
+      for (size_t i = 0; i < n_; ++i){
+         data_[i] = other.data_[i];
+      }
+   }
+
+   Buffer& operator=(const Buffer& rhs){
+      if (this == &rhs) return *this;
+      delete[] data_;
+      n_ = other.n_;
+      data_ = new int[n_];
+      for (size_t i = 0; i < n_; ++i){
+         data_[i] = other.data_[i];
+      }
+      return *this;
+   }
+
+   size_t size() const{return n_;}
+   int& operator[](size_t i){
+      if (i < 0 || i >= n_) throw;
+      return data_[i];
+   }
+
+   const int& operator[](size_t i) const{
+      if (i < 0 || i >= n_) throw;
+      return data_[i];
+   }
+
+private:
+   size_t n_;
+   int* data_;
+};
+
+4. risk of deleting data you dont own -> hanging pointer -> double delete.
+for ex, if a copy constructor is not provided, the code will perform a shallow copy, so now 2
+objects of Buffer own the same chunk of memory and if one of them is destructed, the memory for the
+second one is also gone.
+
+B.
+
+5.
+const Buffer b(10); // yes, just creating a Buffer object that is const, though a bit impractical
+b.size(); //yes, calling an API method Buffer has
+b[0] = 3; // no, b is const
+int x = b[0]; //yes, just reading the value of b[0] into x.
+
+6.
+T& front(){
+   return head->data;
+}
+- is called when the list is modifiable.
+
+const T& front() const{
+   return head->data;
+}
+- is called when the list is readonly.
+
+7.
+“A const std::string* means the pointer can’t change.”
+   -> false, it means the string cant change while the pointer can.
+“A std::string* const means the string can’t change.”
+   -> true
+“Passing by const T& prevents copies.”
+   -> true, references do not make full copy.
+
+C.
+
+8.
+-does not check for self-assignment.
+-only perform shallow copy of rhs.data_, so both Buffer objects own the same chunk of memory. 
+
+9.
+- manual memory:
+Buffer& Buffer::operator=(const Buffer& rhs){
+   if (this == &rhs) return *this;
+   delete[] data_;
+   n_ = rhs.n_;
+   data_ = new int[n_];
+   for (size_t i = 0; i < n_; i++) data_[i] = rhs.data_[i];
+
+   return *this;
+}
+
+- std::vector<int>:
+Buffer& Buffer::operator=(const Buffer& rhs){
+   if (this == &rhs) return *this;
+   delete[] data_;
+   n_ = rhs.n_;
+   std::vector<int> n = new std::vector<int>(other.data_, other.data_ + n_);
+   data_ = n.data();
+   
+   return *this;
+}

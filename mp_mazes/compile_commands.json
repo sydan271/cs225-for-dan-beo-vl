@@ -1,0 +1,74 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib -I/Users/hvu/College/cs225/mp_mazes/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/mazereader.cpp.o -c /Users/hvu/College/cs225/mp_mazes/tests/mazereader.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/tests/mazereader.cpp",
+    "output": "CMakeFiles/test.dir/tests/mazereader.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib -I/Users/hvu/College/cs225/mp_mazes/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/test_part1.cpp.o -c /Users/hvu/College/cs225/mp_mazes/tests/test_part1.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/tests/test_part1.cpp",
+    "output": "CMakeFiles/test.dir/tests/test_part1.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib -I/Users/hvu/College/cs225/mp_mazes/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/test_part2.cpp.o -c /Users/hvu/College/cs225/mp_mazes/tests/test_part2.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/tests/test_part2.cpp",
+    "output": "CMakeFiles/test.dir/tests/test_part2.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib -I/Users/hvu/College/cs225/mp_mazes/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/test_student.cpp.o -c /Users/hvu/College/cs225/mp_mazes/tests/test_student.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/tests/test_student.cpp",
+    "output": "CMakeFiles/test.dir/tests/test_student.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib -I/Users/hvu/College/cs225/mp_mazes/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/main.dir/entry/main.cpp.o -c /Users/hvu/College/cs225/mp_mazes/entry/main.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/entry/main.cpp",
+    "output": "CMakeFiles/main.dir/entry/main.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib -I/Users/hvu/College/cs225/mp_mazes/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/testdsets.dir/entry/testdsets.cpp.o -c /Users/hvu/College/cs225/mp_mazes/entry/testdsets.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/entry/testdsets.cpp",
+    "output": "CMakeFiles/testdsets.dir/entry/testdsets.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib -I/Users/hvu/College/cs225/mp_mazes/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/testsquaremaze.dir/entry/testsquaremaze.cpp.o -c /Users/hvu/College/cs225/mp_mazes/entry/testsquaremaze.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/entry/testsquaremaze.cpp",
+    "output": "CMakeFiles/testsquaremaze.dir/entry/testsquaremaze.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/mp_mazes/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/mp_mazes/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/mp_mazes/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/src -I/Users/hvu/College/cs225/mp_mazes/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/dsets.cpp.o -c /Users/hvu/College/cs225/mp_mazes/src/dsets.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/src/dsets.cpp",
+    "output": "src/CMakeFiles/src.dir/dsets.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/mp_mazes/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/mp_mazes/src -I/Users/hvu/College/cs225/mp_mazes/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/maze.cpp.o -c /Users/hvu/College/cs225/mp_mazes/src/maze.cpp",
+    "file": "/Users/hvu/College/cs225/mp_mazes/src/maze.cpp",
+    "output": "src/CMakeFiles/src.dir/maze.cpp.o"
+  }
+]

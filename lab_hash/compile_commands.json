@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/lib -I/Users/hvu/College/cs225/lab_hash/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests-dh.cpp.o -c /Users/hvu/College/cs225/lab_hash/tests/tests-dh.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/tests/tests-dh.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests-dh.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/lib -I/Users/hvu/College/cs225/lab_hash/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests-lp.cpp.o -c /Users/hvu/College/cs225/lab_hash/tests/tests-lp.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/tests/tests-lp.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests-lp.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/lib -I/Users/hvu/College/cs225/lab_hash/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests-sc.cpp.o -c /Users/hvu/College/cs225/lab_hash/tests/tests-sc.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/tests/tests-sc.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests-sc.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/lib -I/Users/hvu/College/cs225/lab_hash/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/main.dir/entry/main.cpp.o -c /Users/hvu/College/cs225/lab_hash/entry/main.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/entry/main.cpp",
+    "output": "CMakeFiles/main.dir/entry/main.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_hash/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_hash/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_hash/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/textfile.cpp.o -c /Users/hvu/College/cs225/lab_hash/lib/cs225/textfile.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/lib/cs225/textfile.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/textfile.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_hash/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_hash/src -I/Users/hvu/College/cs225/lab_hash/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/hashes.cpp.o -c /Users/hvu/College/cs225/lab_hash/src/hashes.cpp",
+    "file": "/Users/hvu/College/cs225/lab_hash/src/hashes.cpp",
+    "output": "src/CMakeFiles/src.dir/hashes.cpp.o"
+  }
+]

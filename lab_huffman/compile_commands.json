@@ -1,0 +1,86 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/lib -I/Users/hvu/College/cs225/lab_huffman/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_huffman/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/lib -I/Users/hvu/College/cs225/lab_huffman/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/decoder.dir/entry/decoder.cpp.o -c /Users/hvu/College/cs225/lab_huffman/entry/decoder.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/entry/decoder.cpp",
+    "output": "CMakeFiles/decoder.dir/entry/decoder.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/lib -I/Users/hvu/College/cs225/lab_huffman/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/encoder.dir/entry/encoder.cpp.o -c /Users/hvu/College/cs225/lab_huffman/entry/encoder.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/entry/encoder.cpp",
+    "output": "CMakeFiles/encoder.dir/entry/encoder.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/lib -I/Users/hvu/College/cs225/lab_huffman/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/view_tree.dir/entry/view_tree.cpp.o -c /Users/hvu/College/cs225/lab_huffman/entry/view_tree.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/entry/view_tree.cpp",
+    "output": "CMakeFiles/view_tree.dir/entry/view_tree.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_huffman/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_huffman/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_huffman/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/src -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/binary_file_reader.cpp.o -c /Users/hvu/College/cs225/lab_huffman/src/binary_file_reader.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/src/binary_file_reader.cpp",
+    "output": "src/CMakeFiles/src.dir/binary_file_reader.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/src -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/binary_file_writer.cpp.o -c /Users/hvu/College/cs225/lab_huffman/src/binary_file_writer.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/src/binary_file_writer.cpp",
+    "output": "src/CMakeFiles/src.dir/binary_file_writer.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/src -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/decoder.cpp.o -c /Users/hvu/College/cs225/lab_huffman/src/decoder.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/src/decoder.cpp",
+    "output": "src/CMakeFiles/src.dir/decoder.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/src -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/encoder.cpp.o -c /Users/hvu/College/cs225/lab_huffman/src/encoder.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/src/encoder.cpp",
+    "output": "src/CMakeFiles/src.dir/encoder.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/src -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/frequency.cpp.o -c /Users/hvu/College/cs225/lab_huffman/src/frequency.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/src/frequency.cpp",
+    "output": "src/CMakeFiles/src.dir/frequency.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/src -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/huffman_tree.cpp.o -c /Users/hvu/College/cs225/lab_huffman/src/huffman_tree.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/src/huffman_tree.cpp",
+    "output": "src/CMakeFiles/src.dir/huffman_tree.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_huffman/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_huffman/src -I/Users/hvu/College/cs225/lab_huffman/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/print_as_ascii.cpp.o -c /Users/hvu/College/cs225/lab_huffman/src/print_as_ascii.cpp",
+    "file": "/Users/hvu/College/cs225/lab_huffman/src/print_as_ascii.cpp",
+    "output": "src/CMakeFiles/src.dir/print_as_ascii.cpp.o"
+  }
+]

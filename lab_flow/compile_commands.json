@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/Users/hvu/College/cs225/lab_flow/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_flow/lib -I/Users/hvu/College/cs225/lab_flow/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/test.dir/tests/tests.cpp.o -c /Users/hvu/College/cs225/lab_flow/tests/tests.cpp",
+    "file": "/Users/hvu/College/cs225/lab_flow/tests/tests.cpp",
+    "output": "CMakeFiles/test.dir/tests/tests.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_flow/build",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_flow/lib -I/Users/hvu/College/cs225/lab_flow/src  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/flow.dir/entry/flow.cpp.o -c /Users/hvu/College/cs225/lab_flow/entry/flow.cpp",
+    "file": "/Users/hvu/College/cs225/lab_flow/entry/flow.cpp",
+    "output": "CMakeFiles/flow.dir/entry/flow.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_flow/build/lib",
+    "command": "/usr/bin/clang++    -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o -c /Users/hvu/College/cs225/lab_flow/lib/lodepng/lodepng.cpp",
+    "file": "/Users/hvu/College/cs225/lab_flow/lib/lodepng/lodepng.cpp",
+    "output": "lib/CMakeFiles/lodepng.dir/lodepng/lodepng.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_flow/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_flow/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o -c /Users/hvu/College/cs225/lab_flow/lib/cs225/HSLAPixel.cpp",
+    "file": "/Users/hvu/College/cs225/lab_flow/lib/cs225/HSLAPixel.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/HSLAPixel.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_flow/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_flow/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225.dir/cs225/PNG.cpp.o -c /Users/hvu/College/cs225/lab_flow/lib/cs225/PNG.cpp",
+    "file": "/Users/hvu/College/cs225/lab_flow/lib/cs225/PNG.cpp",
+    "output": "lib/CMakeFiles/cs225.dir/cs225/PNG.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_flow/build/lib",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_flow/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/cs225_graph.dir/cs225_graph/graph.cpp.o -c /Users/hvu/College/cs225/lab_flow/lib/cs225_graph/graph.cpp",
+    "file": "/Users/hvu/College/cs225/lab_flow/lib/cs225_graph/graph.cpp",
+    "output": "lib/CMakeFiles/cs225_graph.dir/cs225_graph/graph.cpp.o"
+  },
+  {
+    "directory": "/Users/hvu/College/cs225/lab_flow/build/src",
+    "command": "/usr/bin/clang++  -I/Users/hvu/College/cs225/lab_flow/src -I/Users/hvu/College/cs225/lab_flow/lib  -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -gdwarf-4 -std=gnu++17 -o CMakeFiles/src.dir/NetworkFlow.cpp.o -c /Users/hvu/College/cs225/lab_flow/src/NetworkFlow.cpp",
+    "file": "/Users/hvu/College/cs225/lab_flow/src/NetworkFlow.cpp",
+    "output": "src/CMakeFiles/src.dir/NetworkFlow.cpp.o"
+  }
+]

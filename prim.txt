@@ -1,0 +1,22 @@
+MinQueue q;
+makeQueue(Vertices)
+q[start] = 0;
+q[othervertex] = +inf
+
+dis[start] = 0
+dis[otherVertex] = +inf
+
+predecessor[every Vertex] = NULL
+
+
+Graph g;
+
+while num_edges add < n-1: //n is num vertex
+   cur = q.pop()
+
+   for (neighbour a of cur){
+      if (cost(a, cur) < dis[a]){
+         dis[a] = cost(a, cur) // also update queue
+         predecessor[a] = cur
+      }
+   }
